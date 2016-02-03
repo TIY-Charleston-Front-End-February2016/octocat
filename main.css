@@ -51,13 +51,14 @@ li {
   top: 7px;
 }
 
-.octocat a img::after {
+.image-footer::before {
   content: "";
   position: absolute;
-  border-top: 30px solid #ccc;
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  margin-left: 30px;
+  border-top: 10px solid #ccc;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  left: 390px;
+  top: -4px;
 }
 
 .image-number::before {
